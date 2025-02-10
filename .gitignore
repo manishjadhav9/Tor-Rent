@@ -1,0 +1,121 @@
+# Ignore node modules and package manager logs
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnpm-debug.log*
+*.log
+*.lock
+*.cache
+.eslintcache
+*.tsbuildinfo
+
+# Do NOT ignore package.json and package-lock.json (essential for project dependencies)
+!package.json
+!package-lock.json
+!yarn.lock
+
+# Environment variables and secret keys
+.env
+.env.local
+.env.*.local
+.secret
+.keystore
+*.pem
+*.key
+*.crt
+
+# Build artifacts and cache
+artifacts/
+cache/
+coverage/
+coverage.json
+gas-report.json
+typechain/
+typechain-types/
+dist/
+out/
+.next/
+.nuxt/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Solidity compiled files
+# *.json
+*.bin
+*.abi
+
+# Hardhat / Truffle specific files
+.truffle/
+.truffle-config.js
+.truffle-config.ts
+hardhat.config.js
+hardhat.config.ts
+
+# Foundry (Rust-based Ethereum framework)
+out/
+cache/
+broadcast/
+forge-artifacts/
+lib/
+foundry.toml
+*.t.sol
+
+# Ethereum development
+ganache-db/
+ganache-*
+.history
+*.chainId
+
+# Python virtual environments (for Brownie framework)
+venv/
+.envrc
+.pytest_cache/
+__pycache__/
+build/
+dist/
+*.pyc
+*.pyo
+*.pyd
+
+# Rust (for Substrate-based blockchain projects)
+Cargo.lock
+target/
+debug/
+release/
+node_modules/
+
+# Docker
+docker-compose.override.yml
+docker-sync.yml
+.dockerignore
+**/Dockerfile
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337

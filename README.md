@@ -24,7 +24,6 @@ This creates a **decentralized, efficient, and fraud-resistant ecosystem** for b
 ### 🔗 **Transparent and Immutable Agreements**
 Rental agreements are securely stored on blockchain ledgers, preventing unauthorized modifications or tampering. Once recorded, the contract remains **permanent, verifiable, and legally binding**.
 
----
 
 ### 💰 **Automated Payments and Deposits**
 Smart contracts automate rent payments and security deposits, executing transactions based on predefined conditions. This eliminates **delays, missed payments, and disputes over deposit refunds**.

@@ -9,7 +9,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center text-white">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
-              Decentralized Rental Platform
+            Redefining Rentals with Blockchain!
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90">
               Secure, transparent, and efficient property rentals powered by blockchain technology

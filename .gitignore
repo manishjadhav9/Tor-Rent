@@ -8,6 +8,7 @@ yarn-error.log
 *.cache
 .eslintcache
 *.tsbuildinfo
+backend\uploads
 
 # Do NOT ignore package.json and package-lock.json (essential for project dependencies)
 !package.json
